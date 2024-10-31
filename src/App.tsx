@@ -11,14 +11,11 @@ const App = () => {
       <TooltipProvider>
         <SidebarProvider defaultOpen={false}>
           <AppSidebar />
-
           <div>
-            {" "}
             {/* Main */}
             <SidebarTrigger />
             <Outlet />
           </div>
-
           <Toaster richColors />
         </SidebarProvider>
       </TooltipProvider>
